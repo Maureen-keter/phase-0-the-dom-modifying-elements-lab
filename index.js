@@ -5,13 +5,11 @@ if (mainElement) {
 
   const newHeader = document.createElement("h1");
   newHeader.id = 'victory';
-  newHeader.textContent = Keter + " is the champion";
+  const yourName="Keter"
+  newHeader.textContent = `${yourName} + " is the champion"`;
   document.body.appendChild(newHeader);
 
-  const nwHeader = document.createElement('h1');
-  nwHeader.id = 'victory';
-  const yourName = 'Keter'; 
-  nwHeader.textContent = `${yourName} is the champion`;
+ 
         
   
 
